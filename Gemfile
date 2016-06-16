@@ -1,10 +1,22 @@
 source 'https://rubygems.org'
 
+# Code Quality Tools
+gem 'traceroute'
+gem 'rubocop', require: false
+gem 'rubycritic', :require => false
+gem 'brakeman'
+
+# To make it pretty
+gem 'simple_form'
+gem 'bootstrap-sass'
+gem 'font-awesome-sass', '~> 4.6.2'
+gem 'carrierwave'
+gem 'country-select'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# Use postgresql as the database for Active Record
+gem 'pg', '~> 0.15'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -44,4 +56,3 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
