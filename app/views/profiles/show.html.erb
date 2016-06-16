@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Class age:</strong>
+  <%= @profile.class_age %>
+</p>
+
+<p>
+  <strong>Class gender:</strong>
+  <%= @profile.class_gender %>
+</p>
+
+<p>
+  <strong>Class language:</strong>
+  <%= @profile.class_language %>
+</p>
+
+<p>
+  <strong>Class country:</strong>
+  <%= @profile.class_location %>
+</p>
+
+<p>
+  <strong>Class biography:</strong>
+  <%= truncate(@profile.class_biography, :length => 20) %>
+</p>
+
+<%= link_to 'Edit', edit_profile_path(@profile) %> |
+<%= link_to 'Back', profiles_path %>

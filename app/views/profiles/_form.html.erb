@@ -1,0 +1,17 @@
+<%= simple_form_for(@profile) do |f| %>
+  <%= f.error_notification %>
+
+
+    <div class="form-inputs">
+      <%= f.input :class_age %>
+      <%= f.input :class_gender %>
+      <%= f.input :class_language %>
+      <%= f.input :class_location %>
+      <%= f.input :class_biography %>
+    </div>
+
+    <div class="form-actions">
+      <%= f.button :submit %>
+    </div>
+
+<% end %>
