@@ -1,5 +1,30 @@
 #ESL Penpal App
 
+
+
+* Ruby version
+
+- Ruby 2.3.0
+- Rails 4.2.6
+
+* Added Gems
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+
+
 # What's the Problem?
 
 Do you remember when you were at school and your teachers assigned you a penpal? How was that done? A quick google search under "ESL penpal" doesn't turn up very much.
@@ -23,27 +48,3 @@ Users can view and search the board, but are unable to create a profile or conta
 Users can create and update a profile, upload picutres and videos, search via geolocation and age of students. They will be able to create a private, Facebook like, message board and send signup tokens to their students.
 
 Students will be able to post to this board. Posts by students will be moderated by the teachers (this will prevent students from posting inappropiate material/harrassing students). This will also solve another issue that EFL/ESL teachers have, seeing examples of students' work. Teachers will be able to see examples of students' writing and will be able to troubleshoot any problems they may be having with grammar and vocabulary.
-
-<!-- Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>. -->
