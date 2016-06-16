@@ -2,26 +2,47 @@
 
 
 
-* Ruby version
+##Ruby version
 
 - Ruby 2.3.0
 - Rails 4.2.6
 
-* Added Gems
+##Added Gems
 
-* System dependencies
+####Development Code Checkers
 
-* Configuration
+- traceroute
+- rubocop
+- rubycritic
+- brakeman
 
-* Database creation
+####To make it pretty/easier to use
 
-* Database initialization
+- simple_form
+- bootstrap-sass
+- font-awesome
+- font-awesome-sass
+- country-select
 
-* How to run the test suite
+####Uploaders
 
-* Services (job queues, cache servers, search engines, etc.)
+- carrierwave
 
-* Deployment instructions
+<!-- * System dependencies -->
+
+<!-- * Configuration -->
+
+##Database
+
+- 'pg' gem installed in gemfile
+
+Postgresql used in development.
+
+<!-- * How to run the test suite -->
+
+<!-- * Services (job queues, cache servers, search engines, etc.) -->
+
+<!-- * Deployment instructions -->
 
 
 
